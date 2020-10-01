@@ -20,7 +20,11 @@ eureka:
 ---
 
 server:
+<<<<<<< HEAD:config-client.yml
   port: 8202  
+=======
+  port: 8202
+>>>>>>> 8a77980179f1a4eb252b5a1a2485fc69f79a8890:config-server.yml
 
 spring:
   profiles: test
