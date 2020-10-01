@@ -4,7 +4,6 @@ spring:
   profiles:
     active: dev
 ---
-
 server:
   port: 8201
 
@@ -18,13 +17,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 ---
-
 server:
-<<<<<<< HEAD:config-client.yml
-  port: 8202  
-=======
   port: 8202
->>>>>>> 8a77980179f1a4eb252b5a1a2485fc69f79a8890:config-server.yml
 
 spring:
   profiles: test
